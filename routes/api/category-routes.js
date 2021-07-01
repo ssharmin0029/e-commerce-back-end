@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
     const categoryData = await Category.findAll({
       include: [{model: Product, as: "products"}]
     });
+    
     res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
@@ -23,7 +24,7 @@ router.get('/:id', (req, res) => {
     const categoryData = await Category.findByPk(req.params.id, {
       include: [{model: Product, as: "products"}]
     });
-    
+
     if (!categoryData) {
       res.status(404).json({message: 'No category found with this id!' });
       return;
