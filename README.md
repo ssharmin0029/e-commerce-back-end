@@ -9,10 +9,11 @@
 - [Screenshots](#Screenshots)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Deployed Application URL](#Deployed-Application-URL)
+- [Demo Link](#Demo-Link)
 
 
 ## Description 
+The assignment was to build the back-end for an e-commerce site by modifying starter code. It required to configure a working Express.js API to use Sequelize to interact with a MySQL database. 
 
 
 ## Screenshots
@@ -44,5 +45,5 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 
-## Deployed Application URL 
-[E-Commerce Back End]()
+## Demo Link 
+[E-Commerce Back-End]()
