@@ -17,8 +17,7 @@ The assignment was to build the back-end for an e-commerce site by modifying sta
 
 
 ## Screenshots
-![alt text](public/images/final-page-1.png)
-![alt text](public/images/final-page-2.png)
+![alt text](assets/images/final-page-1.png)
 
 
 ## User Story 
